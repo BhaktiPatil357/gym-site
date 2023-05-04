@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+</head>
+
+<link rel="stylesheet" href=".css/style.css">
+<style>
+    body{
+        
+        margin: 0px;
+        padding: 0px;
+        background-image: url("org.jpg");   
+}
+.left{
+    display: inline-block;
+    position:absolute;
+left: 42px;
+top: 5px
+;
+border:5px solid rgb(37, 23, 52);
+}
+.left img{
+    width: 150px;
+}
+.left div{
+    text-align: center;
+    color: blueviolet;
+}
+.middle{
+    width: 33%;
+    margin: 5px auto;
+    border:5px solid rgb(18, 38, 18);
+    display: block;
+}
+.right{
+    position:absolute;
+    right: 34px;
+    top: 5px;
+    border:5px solid rgb(11, 7, 16);
+    display: inline-block;
+}
+.navbar{
+display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px 5px 5px;
+    font-size: 15px;
+}
+   .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: red;
+
+    }
+.navbar li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+.btn
+{ 
+    font-family: 'Satisfy', cursive;
+    padding: 10px 8px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    border-radius: 5%;
+}
+.btn:hover{
+    color: brown;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+.container {
+    border: 2px solid rgb(14, 11, 11);
+    margin: 89px 43px;
+    padding: 70px;
+    width: 21%;
+    border-radius: 28px;
+}
+    }
+.form{
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+}
+.container h1 h2 {
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+        position: relative;
+  top: 6px;
+  left: -56px;
+
+ 
+</style>
+<body>
+    <header class="header"">
+        <!-- navbar right -->
+        <div class="left">
+            <img src="rgb.jpg" alt="">
+            <div>for heathy living
+            </div>
+       
+
+        </div>
+        <div class="middle">
+        
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">facilities</a></li>
+                <li><a href="#">our results</a></li>
+                
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">
+                contact us 
+
+         </button>
+            <button class="btn">
+                email us
+
+            </button>
+            
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Let's join </h1>
+        <h2>fill your details here</h2>
+        <form action="noaction.php">
+            <div class="form"><input type="text"name"" placeholder="name"</div>
+            <div class="form"><input type="text"name"" placeholder="age"</div>
+            <div class="form"><input type="text"name"" placeholder="email"</div>
+            <div class="form"><input type="text"name"" placeholder="mob. no"</div>
+
+    </div>
+    <button class="btn">Submit</button>
+    
+</body>
+</html>
